@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name="com.springHibernateOrm.model.Customer" table="customer">
+  <id name="cid">
+   <column name="C_ID"/>
+   <generator class="assigned"/>
+  </id>
+  <property generated="never" lazy="false" name="cname">
+   <column name="C_NAME"/>
+  </property>
+  <property generated="never" lazy="false" name="caddress">
+   <column name="C_ADDRESS"/>
+  </property>
+  <property generated="never" lazy="false" name="shop_date">
+   <column name="C_DATE"/> </property>
+    <property generated="never" lazy="false" name="points">
+   <column name="C_POINTS"/>
+  </property>
+ </class>
+</hibernate-mapping>
