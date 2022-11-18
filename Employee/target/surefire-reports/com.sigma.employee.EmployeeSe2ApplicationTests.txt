@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.sigma.employee.EmployeeSe2ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.522 s - in com.sigma.employee.EmployeeSe2ApplicationTests
